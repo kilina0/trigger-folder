@@ -46,6 +46,15 @@ project {
             accessKeyID = "AKIA5JH2VERVKKW5RO7U"
             accessKey = "credentialsJSON:3f36ae03-b7d1-4828-b1cf-6c10037eb2e2"
         }
+        s3Storage {
+            id = "storage2"
+            bucketName = "kilina-bucket2-private"
+            awsEnvironment = default {
+                awsRegionName = "us-east-2"
+            }
+            accessKeyID = "AKIA5JH2VERVKKW5RO7U"
+            accessKey = "credentialsJSON:3f36ae03-b7d1-4828-b1cf-6c10037eb2e2"
+        }
     }
 }
 
