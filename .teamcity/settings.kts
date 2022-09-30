@@ -35,15 +35,15 @@ project {
         s3Storage {
             id = "PROJECT_EXT_2"
             bucketName = "kilina-bucket"
-            accessKey = "credentialsJSON:eaf16d67-4f79-40c8-b364-c5f6a6317dd6"
             awsEnvironment = default {
                 awsRegionName = "us-east-2"
             }
             accessKeyID = "AKIA5JH2VERVKKW5RO7U"
+            accessKey = "credentialsJSON:eaf16d67-4f79-40c8-b364-c5f6a6317dd6"
         }
         activeStorage {
-            id = "PROJECT_EXT_3"
-            activeStorageID = "PROJECT_EXT_2"
+            id = "PROJECT_EXT_4"
+            activeStorageID = "DefaultStorage"
         }
     }
 }
