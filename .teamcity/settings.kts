@@ -39,7 +39,7 @@ project {
         }
         s3Storage {
             id = "storage${'$'}%hello world()-+"
-            bucketName = "kilina-bucket2-private"
+            bucketName = "kilina-bucket"
             awsEnvironment = default {
                 awsRegionName = "us-east-2"
             }
