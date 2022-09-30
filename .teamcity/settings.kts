@@ -38,6 +38,15 @@ project {
             activeStorageID = "storage2"
         }
         s3Storage {
+            id = "PROJECT_EXT_154"
+            bucketName = "kilina-ireland-bucket"
+            awsEnvironment = default {
+                awsRegionName = "eu-west-1"
+            }
+            accessKeyID = "AKIA5JH2VERVKKW5RO7U"
+            accessKey = "credentialsJSON:3f36ae03-b7d1-4828-b1cf-6c10037eb2e2"
+        }
+        s3Storage {
             id = "storage1"
             bucketName = "kilina-bucket"
             awsEnvironment = default {
