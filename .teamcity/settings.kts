@@ -34,8 +34,8 @@ project {
 
     features {
         activeStorage {
-            id = "PROJECT_EXT_152"
-            activeStorageID = "storage1"
+            id = "PROJECT_EXT_153"
+            activeStorageID = "storage2"
         }
         s3Storage {
             id = "storage1"
