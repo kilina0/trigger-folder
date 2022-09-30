@@ -38,7 +38,7 @@ project {
             activeStorageID = "storage${'$'}%hello world()-+"
         }
         s3Storage {
-            id = "storage${'$'}%hello world()-+"
+            id = "storage1"
             bucketName = "kilina-bucket"
             awsEnvironment = default {
                 awsRegionName = "us-east-2"
