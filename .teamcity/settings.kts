@@ -43,8 +43,8 @@ project {
             accessKey = "credentialsJSON:3f36ae03-b7d1-4828-b1cf-6c10037eb2e2"
         }
         activeStorage {
-            id = "PROJECT_EXT_155"
-            activeStorageID = "PROJECT_EXT_154"
+            id = "PROJECT_EXT_156"
+            activeStorageID = "DefaultStorage"
         }
         s3Storage {
             id = "storage1"
